@@ -4,9 +4,9 @@ hexo.extend.filter.register('server_middleware', function (app) {
 	var url = require('url');
 	
 	app.use(parser.urlencoded({ extended: true }));
-    app.use('/api/', parser.json());
+	app.use('/api/', parser.json());
 
-    app.use('/api/posts', function (req, res) {
+	app.use('/api/posts', function (req, res) {
 		var query = url.parse(req.url, true).query.q,
 			posts = hexo.model('Post'),
 			value;

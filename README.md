@@ -8,3 +8,8 @@ Tiny [Hexo](https://github.com/hexojs/hexo) filter plugin to query posts. Used i
 git clone https://github.com/medicor/hexo-filter-api node_modules/hexo-filter-api
 ```
 
+## Update
+```
+cd node_modules/hexo-filter-api
+git pull
+```
