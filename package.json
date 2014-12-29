@@ -1,0 +1,8 @@
+{
+  "name": "hexo-filter-api",
+  "version": "0.0.1",
+  "main": "index",
+  "dependencies": {
+    "body-parser": "^1.10.0"
+  }
+}
